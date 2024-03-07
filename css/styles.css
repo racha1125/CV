@@ -60,25 +60,23 @@ h3{
 /* PROFILE */
 .profile{
     margin-top: 39px;
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    grid-template-rows: 60vh;
-    padding: 50px;
-    gap: 50px;
-    /* margin: 45px 0 45px 0; */
-    background-image: url(./Images/profile-back3.jpg);
+    height: 60vh;
+    display: flex;
+    background-image: url(../Images/profile-back3.jpg);
     background-repeat: no-repeat;
     background-size:cover;
+    justify-content: space-around;
+    align-content: center;
     background-attachment: fixed;
     }
 .profile-img img{
     width: auto;
-    height: 100%;
-    border-radius: 30px;
+    height:100%;
+    border-radius: 50%;
     box-shadow: 15px 15px 20px #70452f;
 }
 .profile-img{
-    padding: 50px;
+    padding: 100px;
     text-align: center;
 }
 .info p {
